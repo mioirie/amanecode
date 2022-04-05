@@ -225,6 +225,7 @@ body {
 @media screen and (max-width: 768px) {
 .catemenu-group {
   width: 60vw;
+  display: block;
 }
 }
 .catemenua {
@@ -252,6 +253,7 @@ body {
 }
 @media screen and (max-width: 768px) {
 .catemenu-footer {
+  width: 60vw;
   display: flex;
   justify-content: space-between;
   font-size: 13px;

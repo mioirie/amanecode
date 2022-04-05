@@ -231,10 +231,25 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 768px) {
+.pgmenu-gr1 {
+  width: 70vw;
+  margin: 0 auto;
+  display: block;
+}
+}
+
 .pgmenua {
   width: 33vw;
   margin-bottom: 5vh;
 }
+@media screen and (max-width: 768px) {
+.pgmenua {
+  width: 70vw;
+  margin-bottom: 5vh;
+}
+}
+
 .pgmenu1-image {
   margin: 0 auto;
   margin-bottom: 3vh;
@@ -243,11 +258,17 @@ body {
 .cupcakeimg {
   width: 30vw;
   padding:0 auto;
-
+}
+@media screen and (max-width: 768px) {
+.cupcakeimg {
+  width: 70vw;
+  padding: 0 auto;
+}
 }
 .pgmenu1-text {
   color: #256B4A;
 }
+
 .pgmenu1-text1 {
   font-size: 20px;
   margin-bottom: 2vh;
@@ -277,11 +298,28 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 768px) {
+.pgmenu-gr2 {
+  width: 50vw;
+  display: block;
+  margin: 0 auto;
+}
+}
 .sandimg {
   width: 27vw;
 }
+@media screen and (max-width: 768px) {
+.sandimg {
+  width: 50vw;
+}
+}
 .pgmenub {
   width: 27vw;
+}
+@media screen and (max-width: 768px) {
+.pgmenub {
+  width: 50vw;
+}
 }
 .pgmenu2-image {
   margin-bottom: 2vh;
@@ -310,6 +348,15 @@ body {
   justify-content: space-between;
   color: #256B4A;
   font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+.othermenu-lr {
+  width: 60vw;
+  margin: 0 auto;
+  display: block;
+  color: #256B4A;
+  font-size: 15px;
+}
 }
 .othermenu-title {
   font-size: 20px;

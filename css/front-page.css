@@ -260,6 +260,7 @@ body {
 @media screen and (max-width: 768px) {
   .frinfo {
   width: 80vw;
+  display: block;
   margin: 0 auto;
   margin-top: 5vh;
   }
@@ -298,6 +299,7 @@ body {
 .frinfo-image {
   width: 80vw;
   height: auto;
+  float: inherit;
 }
 }
 .frinfoimg {
@@ -434,6 +436,7 @@ body {
 }
 @media screen and (max-width: 768px) {
 .sinfotable {
+
   margin: 0 auto;
   margin-top: 3vh;
 }
