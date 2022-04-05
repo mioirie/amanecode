@@ -171,6 +171,9 @@ input,
 select {
   vertical-align: middle;
 }
+img {
+  width: 100%;
+}
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!reset css!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 body {
   padding: 0;
@@ -188,6 +191,9 @@ body {
   padding: 0;
   font-size: 2em;
   color: white;
+  font-family: 'Cinzel',
+  serif;
+  font-weight: bold;
 }
 .hdimg {
   width: 100%;
@@ -199,7 +205,12 @@ body {
   color: #256B4A;
 }
 .sgltitle-1 {
-  font-size: 20px;
+  font-size: 25px;
+}
+.sgltitle-2 {
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 1vw;
 }
 
 .sglgroup {
@@ -209,18 +220,29 @@ body {
   margin: 0 auto;
   margin-bottom: 5vh;
 }
+
+@media screen and (max-width: 768px) {
+.sglgroup {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+}
+}
 .sglgroup-text {
   color: #256B4A;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .sglgroup-image {
   width: 40vw;
 }
+@media screen and (min-width: 769px) {
 .sglimg {
   width: 40vw;
 }
+}
+
 .footer {
   width: 100vw;
   height: 5vh;
@@ -237,10 +259,15 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  margin:0 auto;
+  font-family: 'Cinzel',
+  serif;
 }
 
 .ftext1 {
   color: #256B4A;
+  font-family: 'Cinzel',
+  serif;
 }
 
 .ftextlink {

@@ -171,6 +171,9 @@ input,
 select {
   vertical-align: middle;
 }
+img {
+  width: 100%;
+}
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!reset css!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 body {
@@ -189,6 +192,9 @@ body {
   padding: 0;
   font-size: 2em;
   color: white;
+  font-family: 'Cinzel',
+  serif;
+  font-weight: bold;
 }
 .hdimg {
   width: 100%;
@@ -206,6 +212,8 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: #256B4A;
+  font-family: 'Cinzel',
+  serif;
 }
 
 .catemenu-group {
@@ -213,6 +221,11 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+.catemenu-group {
+  width: 60vw;
+}
 }
 .catemenua {
   width: 18vw;
@@ -225,13 +238,25 @@ body {
 .catemenuimg {
   width: 18vw;
 }
-
+.catemenu-readmore {
+  font-family: 'Cinzel',
+  serif;
+  font-weight: bold;
+}
 .catemenu-footer {
-  width: 16vw;
+  width: 18vw;
   display: flex;
   justify-content: space-between;
   margin-top: 5px;
   font-size: 13px;
+}
+@media screen and (max-width: 768px) {
+.catemenu-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 3vh;
+}
 }
 
 
@@ -251,10 +276,15 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  margin:0 auto;
+  font-family: 'Cinzel',
+  serif;
 }
 
 .ftext1 {
   color: #256B4A;
+  font-family: 'Cinzel',
+  serif;
 }
 
 .ftextlink {

@@ -171,6 +171,9 @@ input,
 select {
   vertical-align: middle;
 }
+img {
+  width: 100%;
+}
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!reset css!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 body {
@@ -180,7 +183,6 @@ body {
 .header-img {
   position: relative;
 }
-
 .header-text {
   position: absolute;
   top: 50%;
@@ -190,8 +192,9 @@ body {
   padding: 0;
   font-size: 2em;
   color: white;
+  font-family: 'Cinzel',serif;
+  font-weight: bold;
 }
-
 .hdimg {
   width: 100%;
 }
@@ -199,35 +202,33 @@ body {
 .frnews-box {
   width: 75vw; border: solid 0.5px #cccccc;
   margin: 0 auto;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 .frnews-title {
-  width: 15vw;
-  line-height: 5vh;
+  width: 17vw;
+  line-height: 45px;
   background-color: #256B4A;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
   font-size: 20px;
   color: white;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  margin-left: 5vh;
+  font-family: 'Cinzel',
+  serif;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 3vw;
 }
-
 .frnewstbl {
   width: 60vw;
   margin: 0 auto;
 }
-
 .frnews-table {
   width: 60vw;
-
 }
 .frnews-table_row {
   margin-top: 5vh;
-  height: 10vh;
+  height: 5vh;
 }
-
 .frnews-table_date {
   padding-right: 5vw;
   color: #256B4A;
@@ -241,9 +242,11 @@ body {
 }
 .fr-footer {
   color: #256B4A;
+  font-family: 'Cinzel',
+  serif;
   text-align: right;
-  margin-right: 5vw;
-  margin-bottom: 5vh;
+  margin-right: 0;
+  margin-bottom: 3vh;
 }
 
 .frinfo {
@@ -251,26 +254,55 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
+
+@media screen and (max-width: 768px) {
+  .frinfo {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 5vh;
+  }
+}
+
 .frinfo-text {
   color: #256B4A;
+}
+@media screen and (max-width: 768px) {
+.frinfo-text {
+  width: 80vw;
+  color: #256B4A;
+}
+}
+.frinfo-title {
+  margin-top:  1vh;
 }
 .frinfo-title h2{ 
   display: inline-block;
   font-size: 20px;
+  font-family: 'Cinzel',
+  serif;
 }
 .frinfo-text2 {
  margin-top: 5vh;
+ margin-left: 1vw;
  font-size: 15px;
+ line-height: 25px;
 }
-
 .frinfo-image {
   width: 40vw;
   height: auto;
   float: right;
 }
-
+@media screen and (max-width: 768px) {
+.frinfo-image {
+  width: 80vw;
+  height: auto;
+}
+}
+.frinfoimg {
+  width: 100%;
+}
 .color {
     background-color: #FDF4CF;
 }
@@ -287,36 +319,52 @@ body {
 .frmenu-title {
   color: #256B4A;
   font-size: 20px;
+  font-family: 'Cinzel',
+  serif;
 }
-
 .frmenu-content {
-  width: 75vw;
+  width: 70vw;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   flex-wrap: wrap;
 }
-
+@media screen and (max-width: 768px) {
+.frmenu-content {
+  width: 70vw;
+  margin: 0 auto;
+}
+}
 .frmenua {
   background-color: white;
-  width: 36vw;
+  width: 34vw;
   margin-top: 5vh;
+}
+@media screen and (max-width: 768px) {
+.frmenua {
+  background-color: white;
+  width: 70vw;
+  margin-top: 5vh;
+}
 }
 
 .frmenua-image {
-  width: 33vw;
+  width: 31vw;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 18px;
+}
+@media screen and (max-width: 768px) {
+.frmenua-image {
+  width: 100%;
+  margin: 0 auto;
+}
 }
 .menuaimg {
   width: inherit;
 }
-
 .frmenua-textgroup {
   margin: 10px;
 }
-
-
 .frmenua-title {
   color: #256B4A;
   font-size: 20px;
@@ -329,25 +377,18 @@ body {
   font-size: 15px;
   margin-top: 10px;
   margin-left: 1.5vw;
-  line-height: 18px;
-
-}
-
-.fr-footer {
-  margin-right: 0;
-
+  line-height: 23px;
 }
 
 .sns {
   width: 20vw;
   justify-content: space-between;
-  margin: 0 auto;  
+  margin: 5vh auto;  
 }
 .snsgroup {
   display: flex;
   justify-content: space-between;
 }
-
 .snsimg {
   width: 3vw;
   height: auto;
@@ -356,38 +397,57 @@ body {
 .shopinfo {
   width: 80vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0 auto;
-  margin-top :10vh;
   padding-bottom: 5vh;
 }
+@media screen and (max-width: 768px) {
+.shopinfo {
+  width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 5vh;
+  text-align: center;
+}
+}
+
 .sinfotext {
   color: #256B4A;
 }
 .sinfotitle {
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
+  margin-bottom: 1vh;
+  font-family: 'Cinzel',
+  serif;
 }
-
+.sinfosubtitle {
+  font-size: 18px;
+  margin-left: 2vw;
+}
+.sinfotbl {
+  font-size: 15px;
+  line-height: 25px;
+}
 .sinfotable {
   width: 33vw;
-  margin-top: 5vh;
-  font-size: 15px;
-  line-height: 3vh;
+  margin-top: 3vh;
 }
-.sinfotext2 {
-  font-size: 15px;
-  line-height: 3vh;
+@media screen and (max-width: 768px) {
+.sinfotable {
+  margin: 0 auto;
+  margin-top: 3vh;
+}
 }
 .map {
   width: 33vw;
 }
-
-.color2 {
-  width: 100vw;
-  height: 5vh;
-  background-color: #FDF4CF;
+@media screen and (max-width: 768px) {
+.map {
+  width: 33vw;
+  margin-top: 3vh;
 }
+}
+
 .footer {
   width: 100vw;
   height: 5vh;
@@ -403,9 +463,13 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  margin:0 auto;
+  font-family: 'Cinzel',
+  serif;
 }
 .ftext1 {
   color: #256B4A;
+
 }
 .ftextlink {
   text-decoration: none;

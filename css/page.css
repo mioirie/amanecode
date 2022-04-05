@@ -172,6 +172,10 @@ select {
   vertical-align: middle;
 }
 
+img {
+  width:100%;
+}
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!reset css!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 body {
   padding: 0;
@@ -191,6 +195,9 @@ body {
   padding: 0;
   font-size: 2em;
   color: white;
+  font-family: 'Cinzel',
+  serif;
+  font-weight: bold;
 }
 
 .hdimg {
@@ -202,9 +209,11 @@ body {
   margin: 3vh auto;
 }
 .pgmenu-title {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: #256B4A;
+  font-family: 'Cinzel',
+  serif;
 }
 .pgmenu1 {
   width: 75vw;
@@ -213,7 +222,7 @@ body {
 .pgmenu1-subtitle {
   text-align: center;
   color: #256B4A;
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 .pgmenu-gr1 {
   width: 70vw;
@@ -223,28 +232,36 @@ body {
   flex-wrap: wrap;
 }
 .pgmenua {
+  width: 33vw;
   margin-bottom: 5vh;
 }
 .pgmenu1-image {
+  margin: 0 auto;
   margin-bottom: 3vh;
+
+}
+.cupcakeimg {
+  width: 30vw;
+  padding:0 auto;
+
 }
 .pgmenu1-text {
   color: #256B4A;
 }
 .pgmenu1-text1 {
   font-size: 20px;
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
 }
 .pgmenu1-text2 {
   font-size: 15px;
+  line-height: 23px;
 }
-
 .pgmenu2 {
-  width: 80vw;
-  margin: 5vh auto;
+  width: 90vw;
+  margin: 0 auto;
 }
 .pgmenu-bar {
-  border: solid 0.5px #256B4A;
+  border: solid 0.3px #256B4A;
 }
 .pgmenu2-subtitle {
   margin-top: 5vh;
@@ -252,14 +269,19 @@ body {
   font-size: 20px;
   color: #256B4A;
   text-align: center;
+  font-family: 'Cinzel',
+  serif;
 }
 .pgmenu-gr2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.sandimg {
+  width: 27vw;
+}
 .pgmenub {
-  width: 25vw;
+  width: 27vw;
 }
 .pgmenu2-image {
   margin-bottom: 2vh;
@@ -273,13 +295,13 @@ body {
   margin-bottom: 2vh;
 }
 .pgmenu2-text2 {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 3vh;
 }
 
 .pgother {
-  width: 80vw;
-  margin: 5vh auto;
+  width: 90vw;
+  margin: 3vh auto;
 }
 .othermenu-lr {
   width: 60vw;
@@ -292,7 +314,8 @@ body {
 .othermenu-title {
   font-size: 20px;
   margin-bottom: 3vh;
-
+  font-family: 'Cinzel',
+  serif;
 }
 .othermenut {
   font-size: 15px;
@@ -323,10 +346,15 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  margin:0 auto;
+  font-family: 'Cinzel',
+  serif;
 }
 
 .ftext1 {
   color: #256B4A;
+  font-family: 'Cinzel',
+  serif;
 }
 
 .ftextlink {
